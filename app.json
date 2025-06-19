@@ -1,0 +1,23 @@
+
+{
+    "name": "TEST~BOT~",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/6o54fg.jpg",
+    "repository": "https://github.com/kawaki2000/SESSION1",
+    "keywords": ["KAWAKI 227"],
+    "success_url": "https://files.catbox.moe/6o54fg.jpg", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "TEST-BOT ON": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
